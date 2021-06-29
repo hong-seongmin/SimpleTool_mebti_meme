@@ -12,8 +12,6 @@ import warnings
 from win32api import GetSystemMetrics
 import datetime
 import shutil
-#exe 만들기(cmd에서) : (pip install pyinstaller →) cd C:\Users\User\Desktop\파이썬 연습 →
-#pyinstaller -w -F "mbti_meme.py" -i="mbti_memeICON.ico" --add-data="C:\Users\User\Desktop\파이썬 연습\mbti_memeICON.ico;." --add-data="C:\Users\User\Desktop\코딩소스\mbti_0\*;.\mbti_0"
 
 #<zoom tkinter class>
 class MainWindow(ttk.Frame):#https://stackoverflow.com/questions/41656176/tkinter-canvas-zoom-move-pan
